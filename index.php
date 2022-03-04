@@ -27,7 +27,7 @@
             
             <div class="right">
                 <div>
-                   <a href="index.html"><img src="Assets/IMG-5353.jpg" alt="" class="img"></a>
+                   <a href="index.php"><img src="Assets/IMG-5353.jpg" alt="" class="img"></a>
                 </div>
             </div>
         </div>
