@@ -1,0 +1,482 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container
+{
+    width: 850px;
+    margin: auto;
+   
+}
+
+.header
+{
+    width: 100%;
+    height: 130px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-color:  #00b7a5;
+}
+
+.header img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    border: 5px solid white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 5);
+    cursor: pointer;
+    transition: 0.5s;
+    user-select: none;
+    filter: grayscale(100%);
+}
+
+.header img:hover
+{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 5);
+}
+
+.header h1
+{
+    color: white;
+    width: 80%;
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.header h1 span
+{
+    color: black;
+}
+
+.main
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .left
+{
+    width: 30%; 
+    background-color:#383838;
+    color: white;
+    box-sizing: border-box;
+}
+
+.left .contact
+{
+    margin-top: 70px; 
+        
+}
+
+.left h4
+{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    background-color:  #00b7a5;
+}
+
+.left hr
+{
+    display: block;
+    width: 55%;
+    float: right;
+    color: white;
+    margin-top: -15px;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+.left p
+{
+    margin-left: 10px;
+    margin-top: 7px;
+    
+}    
+
+.left .fa
+{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color:  #00b7a5;
+}
+
+.left .fa-map-marker
+{
+    padding-left: 6.5px;
+}
+
+.left .contact .fa-mobile
+{
+    padding-left: 7.5px;
+    padding-top: -10px;
+}
+
+.left .fa-youtube-play
+{
+   padding-left: 4px;
+}
+
+.left span
+{
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.left  a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.skills
+{
+    list-style: none;
+}
+
+.skills h3
+{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.skills .bar
+{
+    background: #353b48;
+    display: block;
+    height: 4px;
+    width: 70%;
+    margin-top: -10px;
+    float: right;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,0,3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px white;
+}
+
+.bar span
+{
+    height: 4px;
+    float: left;
+    background: white;
+}
+
+.html
+{
+    
+    width: 85%;
+    animation: html 2s;
+}
+
+@keyframes html
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 85%;
+    }
+}
+
+.css
+{
+    width: 70%;
+    animation: css 2s;
+}
+
+@keyframes css
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+
+.js
+{
+    width: 50%;
+    animation: js 2s;
+}
+
+@keyframes js
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+
+.c
+{
+    width: 75%;
+    animation: c 2s;
+}
+
+@keyframes c
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 75%;
+    }
+}
+
+.c1
+{
+    width: 70%;
+    animation: c1 2s;
+}
+
+@keyframes c1
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+
+.java
+{
+    width: 80%;
+    animation: java 2s;
+}
+
+@keyframes java
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 80%;
+    }
+}
+
+.py
+{
+    width: 60%;
+    animation: py 2s;
+}
+
+@keyframes py
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 60%;
+    }
+}
+
+.sql
+{
+    width: 95%;
+    animation: sql 2s;
+}
+
+@keyframes sql
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 95%;
+    }
+}
+
+.sql1
+{
+    width: 90%;
+    animation: s 2s;
+}
+
+@keyframes s
+{
+    0% 
+    {
+        width: 0%;
+    }
+
+    100%
+    {
+        width: 90%;
+    }
+}
+
+.languages
+{
+    list-style: none;
+}
+
+.languages .bar
+{
+    background: #353b48;
+    display: block;
+    height: 4px;
+    width: 70%;
+    margin-top: -10px;
+    float: right;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,0,3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px white;
+}
+
+.languages .bar span
+{
+    height: 4px;
+    float: left;
+    background: white;
+}
+
+.languages h3
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.languages hr
+{
+    width: 40%;
+    float: right;
+    color: whitesmoke;
+    margin-top: -15px;
+    border-style: dotted;
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.tamil
+{
+    width: 99%;
+    animation: tamil 2s;
+}
+
+@keyframes tamil
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 99%;
+    }
+}
+
+.english
+{
+    width: 50%;
+    animation: english 2s;
+}
+
+@keyframes english
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+
+.sinhala
+{
+    width: 50%;
+    animation: sinhala 2s;
+}
+
+@keyframes sinhala
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+
+.follow #hr
+{
+    width: 40%;
+    float: right;
+    color: whitesmoke;
+    margin-top: -15px;
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.hobbies .hob
+{
+    
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hobbies .fas
+{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: #00b7a5;
+}
+
+
