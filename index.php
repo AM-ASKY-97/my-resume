@@ -648,7 +648,7 @@
         </div>
 
         <div class="btn">
-            <a href="Assets/A M ASKY.pdf" Download class="download">Download CV</a>
+            <a href="Assets/AM.Asky-Resume.pdf" Download class="download">Download CV</a>
         </div>
     </div>
 </body>
